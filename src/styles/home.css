@@ -1,0 +1,60 @@
+#home-bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url('../imgs/henry-co-3JFVNo4ukKQ-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
+  filter: brightness(80%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-description {
+  text-align: center;
+}
+.home-description h1 {
+  font-size: 5rem;
+  color: white;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px rgb(94, 94, 94), 1px 2px 1px rgb(94, 94, 94),
+    1px 3px 1px rgb(94, 94, 94), 1px 4px 1px rgb(94, 94, 94),
+    1px 5px 1px rgb(94, 94, 94);
+}
+.home-description p {
+  font-size: 1.5rem;
+  color: wheat;
+  padding: 20px;
+  font-weight: 600;
+}
+.chart a {
+  text-decoration: none;
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px 20px;
+
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.chart a:first-child {
+  background-color: #00ccff;
+}
+.chart a:last-child {
+  background-color: #825c3c;
+}
+.chart a:hover {
+  color: black;
+  font-weight: 700;
+}
+.home-logo img {
+  border-radius: 50%;
+}
+@media (max-width: 720px) {
+  #home-bg {
+    flex-direction: column;
+    height: 100%;
+  }
+}

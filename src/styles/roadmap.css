@@ -1,0 +1,39 @@
+#roadmap-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-image: url('../imgs/henry-co-3JFVNo4ukKQ-unsplash.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  filter: brightness(80%);
+}
+.square {
+  background-color: #90010e;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+  background-image: url('../imgs/images-removebg-preview.png');
+  background-position: center;
+  background-size: cover;
+}
+#roadmap-container h2 {
+  color: white;
+  font-size: 2rem;
+  z-index: 5;
+}
+#roadmap-container span h2 {
+  color: rgb(24, 24, 24);
+}
+#roadmap-container h1 {
+  font-size: 3rem;
+  padding-top: 50px;
+  color: white;
+  text-shadow: 0 0 10px rgb(248, 0, 0);
+  text-shadow: 1px 1px 1px rgb(94, 94, 94), 1px 2px 1px rgb(94, 94, 94),
+    1px 3px 1px rgb(94, 94, 94), 1px 4px 1px rgb(94, 94, 94),
+    1px 5px 1px rgb(94, 94, 94);
+}
