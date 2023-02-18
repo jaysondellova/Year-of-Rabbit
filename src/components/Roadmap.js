@@ -5,7 +5,7 @@ const Roadmap = () => {
     <div className='Roadmap'>
       <div classname="detail">
         <h1>Roadmap</h1>
-        <p>Let’s look at the path ECAT will take on it's journey to take over the defi world.</p>
+        <p>Let’s look at the path FLOKING will take on it's journey to take over the defi world.</p>
       </div>
       <div className='roadmap-container'>
       <div classname="roadmap-body">

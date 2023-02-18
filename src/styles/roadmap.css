@@ -16,7 +16,7 @@ background-color: rgb(235, 235, 143);
 }
 .Roadmap h1{
   font-size: 40px;
-  color: rgb(24, 24, 19);
+ color: rgb(24, 24, 19);
 }
 .Roadmap p{
   font-size: 24px;
@@ -24,7 +24,7 @@ background-color: rgb(235, 235, 143);
 }
 
 .roadmap-container{
-  padding: 30px;
+ 
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
