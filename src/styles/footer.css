@@ -1,0 +1,11 @@
+.footer{
+    padding: 60px;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(250, 250, 140);
+    color: rgb(24, 24, 19);
+
+}
+.inner-footer{
+    font-size: 16px;
+}

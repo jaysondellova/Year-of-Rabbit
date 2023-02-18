@@ -1,31 +1,38 @@
-import React from 'react';
-import '../styles/roadmap.css';
+import React from 'react'
+import "../styles/roadmap.css"
 const Roadmap = () => {
   return (
-    <div id="roadmap-container">
-      <div className="square">
+    <div className='Roadmap'>
+      <div classname="detail">
         <h1>Roadmap</h1>
-        <span>
-          {' '}
-          <h2>Phase 1</h2>
-        </span>
-        <h2>Develop website</h2>
-        <h2>Create telegram group</h2>
-        <h2>300 holders</h2>
-        <h2>Start of marketing</h2>
-        <br />
-        <span>
-          <h2>phase 2</h2>
-        </span>
-        <h2>Coming soon</h2>
-        <br />
-        <span>
-          <h2>Phase 3</h2>
-        </span>
-        <h2>Coming soon</h2>
+        <p>Let’s look at the path ECAT will take on it's journey to take over the defi world.</p>
+      </div>
+      <div className='roadmap-container'>
+      <div classname="roadmap-body">
+        <div className='roadmap-bg-pink'>
+        <h1>To Do</h1>
+        <h2>DApp Stake</h2>
+        <h2>1st Air Drop</h2>
+        <h2>Community Giveaway</h2>
+        </div>
+      </div>
+      <div classname="roadmap-body">
+      <div className='roadmap-bg-green'>
+        <h1>In Progress</h1>
+        <h2>DApp Burn</h2>
+        <h2>Dapp Claim</h2>
+        <h2>Community Building</h2> </div>
+      </div>
+      <div classname="roadmap-body">
+      <div className='roadmap-bg-yellow'>
+        <h1>Complete</h1>
+        <h2>Tokenomics</h2>
+        <h2>Website Design</h2> </div>
+        
+      </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Roadmap;
+export default Roadmap

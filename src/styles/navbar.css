@@ -9,10 +9,10 @@
 }
 
 :root {
-  --mainColor: #90010e;
-  --mainColorLight: #5767aa;
+  --mainColor: #fce148;
+  --mainColorLight: #d3d6e0;
   --secondaryColor: #db2b39;
-  --textColor: #eee;
+  --textColor: #0e0d0d;
 }
 header img {
   border-radius: 50%;
@@ -29,6 +29,7 @@ header {
 }
 
 nav a {
+  font-size: 26px;
   margin: 0 1rem;
   color: var(--textColor);
   text-decoration: none;

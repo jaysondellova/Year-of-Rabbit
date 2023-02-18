@@ -1,39 +1,64 @@
-#roadmap-container {
+*{
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.Roadmap{
+  height: 100%;
+  width: 100%;
+  padding: 100px;
+
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-  height: 100vh;
-  width: 100%;
-  background-image: url('../imgs/henry-co-3JFVNo4ukKQ-unsplash.jpg');
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  filter: brightness(80%);
+text-align: center;
+background-color: rgb(235, 235, 143);
 }
-.square {
-  background-color: #90010e;
+.Roadmap h1{
+  font-size: 40px;
+  color: rgb(24, 24, 19);
+}
+.Roadmap p{
+  font-size: 24px;
+  color: rgb(56, 55, 44);
+}
+
+.roadmap-container{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.roadmap-container h1{
+  font-size: 40px;
+  color: rgb(24, 24, 19);
+}
+.roadmap-container h2{
+  font-size: 24px;
+  line-height: 3;
+  color: rgb(56, 55, 44);
+}
+.roadmap-bg-green{
+  background-color: rgb(70, 179, 70);
+  height: fit-content;
   height: 100%;
-  padding: 20px;
-  text-align: center;
-  background-image: url('../imgs/images-removebg-preview.png');
-  background-position: center;
-  background-size: cover;
+  padding: 40px;
+  margin:0 5px 0 5px;
+  width: 300px;
 }
-#roadmap-container h2 {
-  color: white;
-  font-size: 2rem;
-  z-index: 5;
+.roadmap-bg-yellow{
+background-color: rgb(212, 212, 83);
+height: 100%;
+padding: 40px;
+margin:0 5px 0 5px;
+width: 300px;
 }
-#roadmap-container span h2 {
-  color: rgb(24, 24, 24);
-}
-#roadmap-container h1 {
-  font-size: 3rem;
-  padding-top: 50px;
-  color: white;
-  text-shadow: 0 0 10px rgb(248, 0, 0);
-  text-shadow: 1px 1px 1px rgb(94, 94, 94), 1px 2px 1px rgb(94, 94, 94),
-    1px 3px 1px rgb(94, 94, 94), 1px 4px 1px rgb(94, 94, 94),
-    1px 5px 1px rgb(94, 94, 94);
+.roadmap-bg-pink{
+background-color: palevioletred;
+height: fit-content;
+height: 100%;
+padding: 40px;
+margin:0 5px 0 5px;
+width: 300px;
 }
